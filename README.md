@@ -12,7 +12,7 @@ I build applied AI systems: retrieval-augmented generation, LLM evaluation, and 
 | Project | What it is | Stack |
 |---|---|---|
 | [knee-mri-detect](https://github.com/Akhil-Prasad09/knee-mri-detect) | Knee MRI abnormality detection with Grad-CAM explanations and a clinician-facing web app (B.Tech major project) | PyTorch, EfficientNet-B3, FastAPI, React, Docker |
-| CAG Real-Time Emotion Tracker | Attention-guided InceptionV3 on FER-2013, 90%+ accuracy over 7 classes, under 50 ms end to end on a live webcam | PyTorch, OpenCV |
+| [cag-emotion-tracker](https://github.com/Akhil-Prasad09/cag-emotion-tracker) | Real-time webcam emotion recognition over 7 classes at ~5 ms per frame on CPU, with a Streamlit dashboard | OpenCV, scikit-learn, PyTorch, Streamlit |
 | [Portfolio](https://akhil-prasad09.github.io) | My site, a static Next.js export on GitHub Pages | Next.js, TypeScript, Three.js |
 | [OIBSP](https://github.com/Akhil-Prasad09/OIBSP) | Python apps from my Oasis Infobyte internship: voice assistant, weather CLI, multi-client TCP chat | Python |
 
