@@ -1,13 +1,13 @@
-# Hi, I'm Akhil 👋
+# Hi, I'm Akhil
 
-I build applied AI systems: retrieval-augmented generation, LLM evaluation, and real-time computer vision. Final-year B.Tech IT student at Matrusri Engineering College, Hyderabad (CGPA 8.64, graduating 2027).
+I build applied AI systems, mostly retrieval-augmented generation, LLM evaluation and real-time computer vision. I'm a final-year B.Tech IT student at Matrusri Engineering College, Hyderabad (CGPA 8.64, graduating 2027).
 
-**Right now**
+### Right now
 
-- **AI Engineering Intern @ AMIK Technologies.** RAG pipelines over internal docs, schema-validated structured outputs, an eval harness for retrieval relevance and faithfulness, and FastAPI model serving with streaming and provider fallback.
-- **Freelance AI Trainer @ Handshake AI.** I write terminal-based benchmark tasks that evaluate frontier AI coding agents: 100+ tasks across 10 domains, each shipped with a Dockerised environment, a test-based verifier, and a reference solution.
+- AI Engineering Intern at AMIK Technologies. I work on RAG pipelines over internal docs, schema-validated structured outputs, an eval harness for retrieval relevance and faithfulness, and FastAPI model serving with streaming and provider fallback.
+- Freelance AI Trainer at Handshake AI. I write terminal-based benchmark tasks that evaluate frontier AI coding agents: 100+ tasks across 10 domains, each shipped with a Dockerised environment, a test-based verifier, and a reference solution.
 
-**Projects**
+### Projects
 
 | Project | What it is | Stack |
 |---|---|---|
@@ -18,8 +18,8 @@ I build applied AI systems: retrieval-augmented generation, LLM evaluation, and 
 | [Portfolio](https://akhil-prasad09.github.io) | My site, a static Next.js export on GitHub Pages | Next.js, TypeScript, Three.js |
 | [OIBSP](https://github.com/Akhil-Prasad09/OIBSP) | Python apps from my Oasis Infobyte internship: voice assistant, weather CLI, multi-client TCP chat | Python |
 
-**Tools I reach for:** Python · PyTorch · Hugging Face · OpenCV · FastAPI · SQL · React · Docker · Linux
+Tools I reach for: Python · PyTorch · Hugging Face · OpenCV · FastAPI · SQL · React · Docker · Linux
 
-**Get in touch:** [Portfolio](https://akhil-prasad09.github.io) · [LinkedIn](https://www.linkedin.com/in/akhil-prasad-972043289/)
+Get in touch: [Portfolio](https://akhil-prasad09.github.io) · [LinkedIn](https://www.linkedin.com/in/akhil-prasad-972043289/)
 
 I'm looking for AI/ML and Python backend roles.
