@@ -63,11 +63,11 @@ def svg(light, dark):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="ASCII art portrait of Akhil">
 <style>
   text {{ font: {FONT}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; fill: #24292f;
-          opacity: 0; animation: in 140ms linear forwards; }}
-  @keyframes in {{ to {{ opacity: 1; }} }}
+          animation: in 140ms linear backwards; }}          /* visible unless the animation runs */
+  @keyframes in {{ from {{ opacity: 0; }} }}
   .dk {{ display: none; }}
   @media (prefers-color-scheme: dark) {{ .lt {{ display: none; }} .dk {{ display: inline; }} text {{ fill: #c9d1d9; }} }}
-  @media (prefers-reduced-motion: reduce) {{ text {{ opacity: 1; animation: none; }} }}
+  @media (prefers-reduced-motion: reduce) {{ text {{ animation: none; }} }}
 </style>
 {group("lt", light)}
 {group("dk", dark)}

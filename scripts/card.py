@@ -54,7 +54,7 @@ def render():
   .d0 {{ fill: #ff5f57; }} .d1 {{ fill: #febc2e; }} .d2 {{ fill: #28c840; }}
   .b0 {{ fill: #1f2328; }} .b1 {{ fill: #cf222e; }} .b2 {{ fill: #1a7f37; }} .b3 {{ fill: #9a6700; }}
   .b4 {{ fill: #0969da; }} .b5 {{ fill: #8250df; }} .b6 {{ fill: #1b7c83; }} .b7 {{ fill: #d0d7de; }}
-  .ln {{ opacity: 0; animation: in 380ms cubic-bezier(.2, .8, .2, 1) forwards; }}
+  .ln {{ animation: in 380ms cubic-bezier(.2, .8, .2, 1) backwards; }}   /* visible unless the animation runs */
   @keyframes in {{ from {{ opacity: 0; transform: translateX(-6px); }} to {{ opacity: 1; transform: none; }} }}
   @media (prefers-color-scheme: dark) {{
     .panel {{ fill: #0d1117; stroke: #30363d; }} .bar {{ fill: #161b22; }} .rule {{ stroke: #30363d; }} .t {{ fill: #8b949e; }}
@@ -62,7 +62,7 @@ def render():
     .b0 {{ fill: #484f58; }} .b1 {{ fill: #ff7b72; }} .b2 {{ fill: #3fb950; }} .b3 {{ fill: #d29922; }}
     .b4 {{ fill: #58a6ff; }} .b5 {{ fill: #bc8cff; }} .b6 {{ fill: #39c5cf; }} .b7 {{ fill: #e6edf3; }}
   }}
-  @media (prefers-reduced-motion: reduce) {{ .ln {{ opacity: 1; animation: none; }} }}
+  @media (prefers-reduced-motion: reduce) {{ .ln {{ animation: none; }} }}
 </style>
 <rect class="panel" x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="10"/>
 <path class="bar" d="M1 11a10 10 0 0 1 10-10h{W - 22}a10 10 0 0 1 10 10v{BAR - 11}h-{W - 2}z"/>

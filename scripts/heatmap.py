@@ -78,13 +78,13 @@ def render(days):
   text {{ font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #57606a; }}
   .t {{ font-size: 14px; font-weight: 600; fill: #1f2328; }}
   .l0 {{ fill: #ebedf0; }} .l1 {{ fill: #9be9a8; }} .l2 {{ fill: #40c463; }} .l3 {{ fill: #30a14e; }} .l4 {{ fill: #216e39; }}
-  .c {{ opacity: 0; animation: in 420ms cubic-bezier(.2, .8, .2, 1) forwards; }}
+  .c {{ animation: in 420ms cubic-bezier(.2, .8, .2, 1) backwards; }}   /* visible unless the animation runs */
   @keyframes in {{ from {{ opacity: 0; transform: translateY(-5px); }} to {{ opacity: 1; transform: none; }} }}
   @media (prefers-color-scheme: dark) {{
     text {{ fill: #8b949e; }} .t {{ fill: #e6edf3; }}
     .l0 {{ fill: #161b22; }} .l1 {{ fill: #0e4429; }} .l2 {{ fill: #006d32; }} .l3 {{ fill: #26a641; }} .l4 {{ fill: #39d353; }}
   }}
-  @media (prefers-reduced-motion: reduce) {{ .c {{ opacity: 1; animation: none; }} }}
+  @media (prefers-reduced-motion: reduce) {{ .c {{ animation: none; }} }}
 </style>
 <text class="t" x="0" y="16">{s["total"]:,} contributions in the last year</text>
 {"".join(months)}{days_lbl}
