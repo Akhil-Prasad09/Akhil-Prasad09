@@ -1,0 +1,5 @@
+photo*
+*.jpg
+*.jpeg
+*.heic
+__pycache__/

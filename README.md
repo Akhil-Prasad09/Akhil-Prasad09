@@ -2,6 +2,23 @@
 
 I build applied AI systems, mostly retrieval-augmented generation, LLM evaluation and real-time computer vision. I'm a final-year B.Tech IT student at Matrusri Engineering College, Hyderabad (CGPA 8.64, graduating 2027).
 
+<div align="center">
+
+<h3><code>akhil@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" alt="My GitHub contribution calendar for the last year" />
+
+<br><br>
+
+<h3><code>akhil@github ~ $ neofetch</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="ASCII art portrait of Akhil" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Akhil Prasad Chinthala: AI/ML engineer, AI Engineering Intern at AMIK Technologies, freelance AI trainer at Handshake AI, B.Tech IT CGPA 8.64, seeking AI/ML and Python backend roles" /></td>
+  </tr>
+</table>
+
+</div>
+
 ### Right now
 
 - AI Engineering Intern at AMIK Technologies. I work on RAG pipelines over internal docs, schema-validated structured outputs, an eval harness for retrieval relevance and faithfulness, and FastAPI model serving with streaming and provider fallback.
